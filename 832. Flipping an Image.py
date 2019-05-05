@@ -29,6 +29,7 @@ def flipAndInvertImage(A):
                 inverted_matrix[i][-j] = 1
             else:
                 inverted_matrix[i][-j] = 0
+    inverted_matrix[0], inverted_matrix[1] = inverted_matrix[1], inverted_matrix[0]
     print(inverted_matrix)
 
 
